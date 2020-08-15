@@ -94,7 +94,10 @@ export THRD=1
 export WLCLK=$WLCLK_dflt
 export TASKS=$TASKS_dflt
 export TPN=$TPN_dflt
+# RESTART_INTERVAL (seconds)
 export RESTART_INTERVAL=86400
+# CMEPS_RESTART_INTERVAL (hours)
+export CMEPS_RESTART_INTERVAL=48
 export CPL=.F.
 export CPLFLX=.F.
 export CPLWAV=.F.

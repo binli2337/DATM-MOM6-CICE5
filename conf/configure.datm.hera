@@ -1,6 +1,6 @@
 ## NEMS configuration file
 ##
-## Platform: Theia
+## Platform: Hera
 ## Compiler: Intel with IntelMPI
 
 SHELL=/bin/sh
@@ -87,6 +87,10 @@ ifeq ($(HYDRO),Y)
 CPPDEFS +=
 else
 CPPDEFS += -DMOIST_CAPPA -DUSE_COND
+endif
+
+ifeq ($(CMEPS),Y)
+CPPDEFS += -DCMEPS
 endif
 
 ifeq ($(32BIT),Y)
