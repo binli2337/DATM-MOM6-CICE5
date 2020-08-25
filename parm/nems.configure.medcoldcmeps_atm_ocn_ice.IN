@@ -29,7 +29,7 @@ OCN_model:                      @[ocn_model]
 OCN_petlist_bounds:             @[ocn_petlist_bounds]
 OCN_attributes::
   Verbosity = 0
-  DumpFields = false
+  DumpFields = true
   ProfileMemory = false
   OverwriteSlice = true
 ::
